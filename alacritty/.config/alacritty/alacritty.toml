@@ -1,4 +1,5 @@
 general.live_config_reload = true
+# live_config_reload = true <- Para Ubuntu
 
 #import = [
 #   "~/.config/alacritty/catppuccin-mocha.toml"

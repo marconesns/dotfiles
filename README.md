@@ -113,6 +113,18 @@ Install `SauceCodePro Nerd Font`
 fc-cache -fv
 ```
 
+## Install tmux
+
+```
+apt install tmux
+```
+
+or
+
+```
+dnf install tmux
+```
+
 ## Install TPN
 
 ```
@@ -127,6 +139,12 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```bash
 mkdir -p ~/.config/tmux/plugins/catppuccin
 git clone -b v2.1.0 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+```
+
+## Faça o clone do projeto
+
+```
+git clone https://github.com/marconesns/dotfiles.git
 ```
 
 ## install package stow
