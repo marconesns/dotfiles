@@ -109,9 +109,25 @@ sudo dnf install alacritty
 
 Install `SauceCodePro Nerd Font`
 
+```
+fc-cache -fv
+```
+
+## Install TPN
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ## Catppucin
 
 [Catppuccin](https://github.com/catppuccin/tmux)
+
+
+```bash
+mkdir -p ~/.config/tmux/plugins/catppuccin
+git clone -b v2.1.0 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+```
 
 ## install package stow
 
@@ -124,3 +140,8 @@ sudo apt install stow
 ```
 sudo dnf install stow
 ```
+
+Acesse o diretório dotfiles
+
+```
+stow tmux
