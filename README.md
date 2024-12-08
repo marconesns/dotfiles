@@ -219,6 +219,20 @@ git clone https://github.com/dense-analysis/ale.git
 git clone https://github.com/sheerun/vim-polyglot.git
 ```
 
+# Coc
+Acesse o repositório e siga os passos
+
 ```
-git clone https://github.com/neoclide/coc.nvim.git
+https://github.com/neoclide/coc.nvim.git
 ```
+
+mkdir -p ~/.vim/pack/coc/start
+cd ~/.vim/pack/coc/start
+git clone --branch release https://github.com/neoclide/coc.nvim.git --depth=1
+vim -c "helptags coc.nvim/doc/ | q"
+
+vim ~/.vim/coc.nvimrc
+
+crie o `coc-settings.json` `:CocConfig`
+
+:CocInstall coc-yaml coc-json coc-sh coc-phpls ....
