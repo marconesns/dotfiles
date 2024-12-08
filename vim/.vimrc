@@ -12,7 +12,6 @@
 " https://github.com/sheerun/vim-polyglot.git
 " https://github.com/neoclide/coc.nvim.git
 " https://www.nerdfonts.com
-" https://www.nerdfonts.com
 
 " Global Sets 
 syntax on

@@ -163,3 +163,62 @@ Acesse o diretório dotfiles
 
 ```
 stow tmux
+```
+
+## Vim
+
+```
+mkdir -p ~/.vim/pack/git-plugins/start/
+```
+
+```
+cd ~/.vim/pack/git-plugins/start/
+```
+
+```
+git clone https://github.com/mhinz/vim-startify
+```
+
+```
+git clone https://github.com/rafi/awesome-vim-colorschemes
+```
+
+```
+git clone https://github.com/Yggdroot/indentLine
+```
+
+```
+git clone https://github.com/preservim/nerdtree
+```
+
+```
+git clone https://github.com/ryanoasis/vim-devicons
+```
+
+```
+git clone https://github.com/vim-airline/vim-airline
+```
+
+```
+git clone https://github.com/vim-airline/vim-airline-themes
+```
+
+```
+git clone https://github.com/ctrlpvim/ctrlp.vim
+```
+
+```
+git clone https://github.com/mattn/emmet-vim.git
+```
+
+```
+git clone https://github.com/dense-analysis/ale.git
+```
+
+```
+git clone https://github.com/sheerun/vim-polyglot.git
+```
+
+```
+git clone https://github.com/neoclide/coc.nvim.git
+```
