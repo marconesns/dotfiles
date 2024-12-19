@@ -226,12 +226,21 @@ Acesse o repositório e siga os passos
 https://github.com/neoclide/coc.nvim.git
 ```
 
+```
+sudo apt install -y nodejs npm
+```
+
+
+```
 mkdir -p ~/.vim/pack/coc/start
 cd ~/.vim/pack/coc/start
 git clone --branch release https://github.com/neoclide/coc.nvim.git --depth=1
 vim -c "helptags coc.nvim/doc/ | q"
+```
 
+```
 vim ~/.vim/coc.nvimrc
+```
 
 crie o `coc-settings.json` `:CocConfig`
 
